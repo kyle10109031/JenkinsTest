@@ -339,7 +339,7 @@ Saving the coverage reports in ${out.absolute.dir}
 
             <arg value="pull" />
 
-            <arg value="/data/data/${tested.manifest.package}/files/junit-report.xml" />
+            <arg value="/data/data/${tested.project.app.package}/files/junit-report.xml" />
 
             <arg value="junitreports/junit-report.xml" />
         </exec>
