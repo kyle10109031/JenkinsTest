@@ -34,6 +34,12 @@ public class HelloAndroidActivityTest extends ActivityInstrumentationTestCase2<H
     	EmmaObject object = new EmmaObject(2, 2);
 //    	assertEquals(4, object.add());
     }
+    
+    public void testJunitPlugin()
+    {
+    	//Test
+    	assertNull(null);
+    }
 }
 
 

@@ -329,7 +329,7 @@ Saving the coverage reports in ${out.absolute.dir}
 			Downloading XML test report…
         </echo>
 
-        <mkdir dir="${workspacedir}/junit-results" />
+        <mkdir dir="junitreports" />
 
         <exec
             executable="${adb}"
