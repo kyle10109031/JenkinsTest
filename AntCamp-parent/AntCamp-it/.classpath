@@ -29,5 +29,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="libs/android-junit-report-1.5.8.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>

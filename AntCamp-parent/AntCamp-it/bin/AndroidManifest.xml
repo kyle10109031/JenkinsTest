@@ -10,7 +10,7 @@
   </application>
 
   <instrumentation android:targetPackage="com.maventest.ant.AntCamp"
-    android:name="android.test.InstrumentationTestRunner" />
+    android:name="com.zutubi.android.junitreport.JUnitReportTestRunner" />
 
 </manifest>
 
