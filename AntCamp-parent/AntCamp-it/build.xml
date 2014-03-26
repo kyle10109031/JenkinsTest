@@ -8,7 +8,7 @@
          It contains the path to the SDK. It should *NOT* be checked into
          Version Control Systems.
     -->
-
+	<property name="reports.dir" value="bin/reports"/>
     <property file="local.properties" />
 
     <!--
@@ -347,34 +347,8 @@ Saving the coverage reports in ${out.absolute.dir}
             <arg value="${reports.dir}/junit-report.xml" />
         </exec>
     </target>
-    
-    <target name="fetch-test-report" >
 
-        <xpath
-            expression="/manifest/@package"
-            input="${tested.project.dir}/AndroidManifest.xml"
-            output="tested.package" />
-
-        <echo>
-			Downloading XML test report...
-        </echo>
-
-        <mkdir dir="${reports.dir}" />
-
-        <exec
-            executable="${adb}"
-            failonerror="true" >
-
-            <arg line="${adb.device.arg}" />
-
-            <arg value="pull" />
-
-            <arg value="/data/data/${tested.package}/files/junit-report.xml" />
-
-            <arg value="${reports.dir}/junit-report.xml" />
-        </exec>
-    </target>
-
-    <target name="test-and-fetch" depends="copy-lib,debug,install,test,fetch-test-report"/>
-    
+	<target name="copy-lib">
+        <copy file="../../build/android-junit-report-dev.jar" todir="libs"/>
+    </target>    
 </project>

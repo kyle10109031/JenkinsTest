@@ -40,6 +40,8 @@ public class HelloAndroidActivityTest extends ActivityInstrumentationTestCase2<H
     	//Test
     	assertNull(null);
     }
+    
+    
 }
 
 
