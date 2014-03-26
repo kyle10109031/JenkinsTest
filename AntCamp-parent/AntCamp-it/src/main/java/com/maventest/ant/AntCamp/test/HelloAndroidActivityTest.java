@@ -38,7 +38,7 @@ public class HelloAndroidActivityTest extends ActivityInstrumentationTestCase2<H
     public void testJunitPlugin()
     {
     	//Test
-    	assertNull(null);
+    	assertNull(new Object());
     }
     
     
