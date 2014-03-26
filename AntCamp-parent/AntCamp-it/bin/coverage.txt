@@ -1,0 +1,20 @@
+[EMMA v2.0.5312 report, generated Wed Mar 26 10:58:47 CST 2014]
+-------------------------------------------------------------------------------
+OVERALL COVERAGE SUMMARY:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+100% (2/2)	80%  (4/5)	81%  (26/32)	91%  (10/11)	all classes
+
+OVERALL STATS SUMMARY:
+
+total packages:	1
+total classes:	2
+total methods:	5
+total executable files:	2
+total executable lines:	11
+
+COVERAGE BREAKDOWN BY PACKAGE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+100% (2/2)	80%  (4/5)	81%  (26/32)	91%  (10/11)	com.maventest.ant.AntCamp
+-------------------------------------------------------------------------------
